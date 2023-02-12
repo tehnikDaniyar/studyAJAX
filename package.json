@@ -1,0 +1,24 @@
+{
+	"name": "studyajax",
+	"version": "1.0.0",
+	"description": "link of study materials https://code.mu/ru/javascript/book/supreme/ajax/intro/",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tehnikDaniyar/studyAJAX.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/tehnikDaniyar/studyAJAX/issues"
+	},
+	"homepage": "https://github.com/tehnikDaniyar/studyAJAX#readme",
+	"devDependencies": {
+		"formidable": "^1.2.2"
+	}
+}
