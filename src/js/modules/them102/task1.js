@@ -3,6 +3,6 @@ export const them102_1 = () => {
 	let button = document.querySelector('#them102_1_button');
 
 	button.addEventListener('click', () => {
-		fetch('./AJAX/them102/AJAX1.html').then(response => response.text()).then(text => div.innerHTML = text);
+		fetch('./AJAX/them102/task1/AJAX1.html').then(response => response.text()).then(text => div.innerHTML = text);
 	})
 };

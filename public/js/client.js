@@ -16,7 +16,17 @@
   \***********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_them102_task1_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/them102/task1.js */ \"./src/js/modules/them102/task1.js\");\n\r\n(0,_modules_them102_task1_js__WEBPACK_IMPORTED_MODULE_0__.them102_1)();\n\n//# sourceURL=webpack://base-setting-for-gulp/./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_them102_task1_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/them102/task1.js */ \"./src/js/modules/them102/task1.js\");\n/* harmony import */ var _modules_them102_task1_1_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/them102/task1-1.js */ \"./src/js/modules/them102/task1-1.js\");\n\r\n(0,_modules_them102_task1_js__WEBPACK_IMPORTED_MODULE_0__.them102_1)();\r\n\r\n\r\n(0,_modules_them102_task1_1_js__WEBPACK_IMPORTED_MODULE_1__.them102_1_1)();\n\n//# sourceURL=webpack://base-setting-for-gulp/./src/js/app.js?");
+
+/***/ }),
+
+/***/ "./src/js/modules/them102/task1-1.js":
+/*!*******************************************!*\
+  !*** ./src/js/modules/them102/task1-1.js ***!
+  \*******************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"them102_1_1\": () => (/* binding */ them102_1_1)\n/* harmony export */ });\nconst them102_1_1 = () => {\r\n\tlet parent = document.querySelector(\"#them102_1-1_parent\");\r\n\tlet div = parent.querySelector(\"#them102_1-1_div\");\r\n\tparent.addEventListener('click', (event) => {\r\n\t\tif (event.target.textContent == '1') {\r\n\t\t\tfetch('./AJAX/them102/task1-1/page1.html')\r\n\t\t\t\t.then(response => response.text())\r\n\t\t\t\t.then(text => div.innerHTML = text);\r\n\t\t};\r\n\r\n\t\tif (event.target.textContent == '2') {\r\n\t\t\tfetch('./AJAX/them102/task1-1/page2.html')\r\n\t\t\t\t.then(response => response.text())\r\n\t\t\t\t.then(text => div.innerHTML = text);\r\n\t\t};\r\n\r\n\t\tif (event.target.textContent == '3') {\r\n\t\t\tfetch('./AJAX/them102/task1-1/page3.html')\r\n\t\t\t\t.then(response => response.text())\r\n\t\t\t\t.then(text => div.innerHTML = text);\r\n\t\t};\r\n\t})\r\n}\n\n//# sourceURL=webpack://base-setting-for-gulp/./src/js/modules/them102/task1-1.js?");
 
 /***/ }),
 
@@ -26,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mod
   \*****************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"them102_1\": () => (/* binding */ them102_1)\n/* harmony export */ });\nconst them102_1 = () => {\r\n\tlet div = document.querySelector('#them102_1_div');\r\n\tlet button = document.querySelector('#them102_1_button');\r\n\r\n\tbutton.addEventListener('click', () => {\r\n\t\tfetch('./AJAX/them102/AJAX1.html').then(response => response.text()).then(text => div.innerHTML = text);\r\n\t})\r\n};\n\n//# sourceURL=webpack://base-setting-for-gulp/./src/js/modules/them102/task1.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"them102_1\": () => (/* binding */ them102_1)\n/* harmony export */ });\nconst them102_1 = () => {\r\n\tlet div = document.querySelector('#them102_1_div');\r\n\tlet button = document.querySelector('#them102_1_button');\r\n\r\n\tbutton.addEventListener('click', () => {\r\n\t\tfetch('./AJAX/them102/task1/AJAX1.html').then(response => response.text()).then(text => div.innerHTML = text);\r\n\t})\r\n};\n\n//# sourceURL=webpack://base-setting-for-gulp/./src/js/modules/them102/task1.js?");
 
 /***/ })
 
