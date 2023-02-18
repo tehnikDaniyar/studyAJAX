@@ -6,3 +6,7 @@ them102_1_1();
 
 import { them102_2 } from "./modules/them102/task2.js";
 them102_2();
+
+import { them103_1 } from "./modules/them103/task1.js";
+them103_1();
+

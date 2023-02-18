@@ -16,7 +16,7 @@
   \***********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_them102_task1_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/them102/task1.js */ \"./src/js/modules/them102/task1.js\");\n/* harmony import */ var _modules_them102_task1_1_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/them102/task1-1.js */ \"./src/js/modules/them102/task1-1.js\");\n/* harmony import */ var _modules_them102_task2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/them102/task2.js */ \"./src/js/modules/them102/task2.js\");\n\r\n(0,_modules_them102_task1_js__WEBPACK_IMPORTED_MODULE_0__.them102_1)();\r\n\r\n\r\n(0,_modules_them102_task1_1_js__WEBPACK_IMPORTED_MODULE_1__.them102_1_1)();\r\n\r\n\r\n(0,_modules_them102_task2_js__WEBPACK_IMPORTED_MODULE_2__.them102_2)();\n\n//# sourceURL=webpack://base-setting-for-gulp/./src/js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_them102_task1_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/them102/task1.js */ \"./src/js/modules/them102/task1.js\");\n/* harmony import */ var _modules_them102_task1_1_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/them102/task1-1.js */ \"./src/js/modules/them102/task1-1.js\");\n/* harmony import */ var _modules_them102_task2_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/them102/task2.js */ \"./src/js/modules/them102/task2.js\");\n/* harmony import */ var _modules_them103_task1_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/them103/task1.js */ \"./src/js/modules/them103/task1.js\");\n\r\n(0,_modules_them102_task1_js__WEBPACK_IMPORTED_MODULE_0__.them102_1)();\r\n\r\n\r\n(0,_modules_them102_task1_1_js__WEBPACK_IMPORTED_MODULE_1__.them102_1_1)();\r\n\r\n\r\n(0,_modules_them102_task2_js__WEBPACK_IMPORTED_MODULE_2__.them102_2)();\r\n\r\n\r\n(0,_modules_them103_task1_js__WEBPACK_IMPORTED_MODULE_3__.them103_1)();\r\n\r\n\n\n//# sourceURL=webpack://base-setting-for-gulp/./src/js/app.js?");
 
 /***/ }),
 
@@ -47,6 +47,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"them102_2\": () => (/* binding */ them102_2)\n/* harmony export */ });\nconst them102_2 = () => {\r\n\tlet counter = 0;\r\n\tlet arrPaths = [\r\n\t\t'./AJAX/them102/task2/page1.html',\r\n\t\t'./AJAX/them102/task2/page2.html',\r\n\t\t'./AJAX/them102/task2/page3.html',\r\n\t\t'./AJAX/them102/task2/page4.html',\r\n\t\t'./AJAX/them102/task2/page5.html'\r\n\t];\r\n\r\n\tlet parent = document.querySelector('#them102_2_parent');\r\n\tlet button = parent.querySelector('button');\r\n\tlet div = parent.querySelector('div');\r\n\r\n\tbutton.addEventListener('click', () => {\r\n\t\tfetch(arrPaths[counter])\r\n\t\t\t.then(response => response.text())\r\n\t\t\t.then(text => div.innerHTML = text);\r\n\t\tcounter == 4 ? counter = 0 : counter++;\r\n\t})\r\n}\n\n//# sourceURL=webpack://base-setting-for-gulp/./src/js/modules/them102/task2.js?");
+
+/***/ }),
+
+/***/ "./src/js/modules/them103/task1.js":
+/*!*****************************************!*\
+  !*** ./src/js/modules/them103/task1.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"them103_1\": () => (/* binding */ them103_1)\n/* harmony export */ });\nconst them103_1 = () => {\r\n\r\n}\n\n//# sourceURL=webpack://base-setting-for-gulp/./src/js/modules/them103/task1.js?");
 
 /***/ })
 
