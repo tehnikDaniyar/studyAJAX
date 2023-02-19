@@ -24,3 +24,6 @@ them104_1_1();
 
 import { them105_1 } from "./modules/them105/task1.js";
 them105_1();
+
+import { them105_1_1 } from "./modules/them105/task1-1.js";
+them105_1_1();

@@ -11,4 +11,11 @@ export default {
 	},
 	'/them104_1-1/': get => +get.get.num1 + +get.get.num2 + +get.get.num3,
 	'/them105_1/': get => [get.post.num1, get.post.num2, get.post.num3,],
+	'/them105_1-1/': ({ post }) => {
+		let summ = 0;
+		for (let key in post) {
+			summ += +post[key];
+		};
+		return summ / Object.keys(post).length;
+	}
 };
