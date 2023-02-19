@@ -10,4 +10,5 @@ export default {
 		return [get.num1, get.num2];
 	},
 	'/them104_1-1/': get => +get.get.num1 + +get.get.num2 + +get.get.num3,
+	'/them105_1/': get => [get.post.num1, get.post.num2, get.post.num3,],
 };
