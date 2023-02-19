@@ -9,4 +9,5 @@ export default {
 		console.log(get.num1, get.num2);
 		return [get.num1, get.num2];
 	},
+	'/them104_1-1/': get => +get.get.num1 + +get.get.num2 + +get.get.num3,
 };
