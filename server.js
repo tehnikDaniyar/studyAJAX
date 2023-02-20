@@ -17,5 +17,6 @@ export default {
 			summ += +post[key];
 		};
 		return summ / Object.keys(post).length;
-	}
+	},
+	'/them105_2/': ({ post }) => { console.log(post); return 'date is resived' },
 };
